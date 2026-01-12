@@ -78,5 +78,6 @@ public class Q2 {
 
         DeluxeRoom d3 = new DeluxeRoom(in.nextInt(), in.next(), in.nextDouble(), in.nextBoolean(), in.nextBoolean());
         d3.displayDetails();
+        in.close();
     }
 }

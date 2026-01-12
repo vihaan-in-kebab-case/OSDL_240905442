@@ -27,6 +27,7 @@ class Book {
             p = sc.nextInt();
         }
         price = p;
+        sc.close();
     }
 
     public void setAvailability(boolean avail) {
@@ -71,5 +72,6 @@ public class Q1 {
         System.out.println("Author: " + b1.getAuthor());
         System.out.println("Price: " + b1.getPrice());
         System.out.println("Availability Status: " + (b1.getAvailability() ? "Available" : "Not Available"));
+        in.close();
     }
 }
