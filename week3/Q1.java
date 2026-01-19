@@ -6,7 +6,7 @@ class RoomCleaning extends Thread {
 
     @Override
     public void run() {
-        String[] tasks = {"Sweeping", "Mopping", "Changing Bedsheets", "Bathroom", "Replacing Toiletries"};
+        String[] tasks = {"Sweeping", "Mopping", "Changing Bedsheets", "Cleaning Bathroom", "Replacing Toiletries"};
         int i=1;
         for (String t: tasks) {
             System.out.println(roomName + " - " + t + " Underway (Step " + i + ")" );
