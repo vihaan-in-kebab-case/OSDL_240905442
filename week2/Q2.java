@@ -1,5 +1,4 @@
 import java.util.Scanner;
-
 enum RoomType {
     Standard (2000.50), Deluxe (3500.75), Suite (5000.25);
 

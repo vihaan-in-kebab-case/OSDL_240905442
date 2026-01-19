@@ -60,7 +60,7 @@ public class Q1 {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         Book b1 = new Book();
-        System.out.println("enter book details: id, title, author, price, availability");
+        System.out.println("enter book details: id, title, author, price, and availability");
         b1.setId(in.nextInt());
         b1.setTitle(in.next());
         b1.setAuthor(in.next());
